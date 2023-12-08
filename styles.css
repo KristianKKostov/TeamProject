@@ -1,0 +1,80 @@
+* {
+    max-width: 1700px;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    height: 7vw;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw;
+    transition: 0.5s ease-in-out;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.minigame {
+    font-size: 2vw;
+    color: white;
+    top: 3.8vw;
+    position: absolute;
+    right: 20vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: inherit;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.info {
+    font-size: 2vw;
+    color: white;
+    top: 3.8vw;
+    position: absolute;
+    right: 12.3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: inherit;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.info:hover,
+.minigame:hover {
+    color:#00BFFF;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.three-lines {
+    height: 3vw;
+    position: absolute;
+    margin-top: 3vw;
+    right: 3vw;
+}
+
+p {
+    font-size: 1.3vw;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    margin-top: 0%;
+}
+
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.name {
+    color: #00BFFF;
+    font-size: 3vw;
+}
